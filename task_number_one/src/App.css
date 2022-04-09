@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.film-card {
+  margin-top: 300px;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #fff2ed;
+}
+
+.film-card-title {
+  margin: 10px 0;
+}
+
+.film-card-title > h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #111212;
+  text-align: center;
+}
+
+.film-card-rating {
+  height: auto;
+  margin: 10px 0;
+}
+
+.film-card-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.film-card-button > button {
+  padding: 1px;
+  width: 40%;
+  height: 28px;
+  border: none;
+  background-color: #ff8400;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.stars-list {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  /* align-items: center; */
+}
+
+.stars-list > li {
+  width: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
